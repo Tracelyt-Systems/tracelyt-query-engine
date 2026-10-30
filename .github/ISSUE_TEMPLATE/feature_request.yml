@@ -1,0 +1,32 @@
+---
+name: Feature Request
+description: Propose an architecture enhancement, query capability, or integration for Tracelyt Query Engine.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please outline your proposal clearly. Ensure architectural alignment with the boundaries defined in `docs/architecture/system-boundaries.md`.
+  - type: input
+    id: feature-title
+    attributes:
+      label: Feature / Capability Name
+      description: Concise title of the proposed feature.
+      placeholder: PromQL Query AST Parser Stage
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Architectural Need & Context
+      description: What operational or telemetry retrieval requirement does this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-solution
+    attributes:
+      label: Proposed Solution or Implementation Details
+      description: How should this capability be designed within the query engine architecture?
+    validations:
+      required: true

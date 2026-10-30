@@ -1,0 +1,12 @@
+---
+spring:
+  application:
+    name: tracelyt-query-engine-test
+
+server:
+  port: -1
+
+logging:
+  level:
+    root: WARN
+    io.tracelyt.queryengine: INFO

@@ -1,0 +1,6 @@
+---
+blank_issues_enabled: false
+contact_links:
+  - name: Security Vulnerabilities
+    url: https://github.com/Tracelyt-Systems/tracelyt-query-engine/security/advisories
+    about: Please report security vulnerabilities privately via GitHub Security Advisories or maintainer contact.

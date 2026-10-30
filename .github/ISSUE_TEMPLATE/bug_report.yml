@@ -1,0 +1,31 @@
+---
+name: Bug Report
+description: Report a bug, build defect, or documentation error in Tracelyt Query Engine.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for reporting an issue! Please do NOT include real passwords, API tokens, internal hostnames, or production customer telemetry.
+  - type: input
+    id: affected-component
+    attributes:
+      label: Affected Component or Documentation Path
+      description: Specify the file, package, or document affected (e.g., `pom.xml`, `docs/architecture/overview.md`).
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of the Problem
+      description: Explain what is incorrect, failing, or inconsistent.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: What command or steps did you run (e.g., `./mvnw clean test`)?
+    validations:
+      required: false

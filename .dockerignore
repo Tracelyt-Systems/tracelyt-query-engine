@@ -1,0 +1,21 @@
+# Build output and IDE files
+target/
+.mvn/timing.properties
+.idea/
+.vscode/
+*.iml
+
+# Git and GitHub
+.git/
+.github/
+
+# Documentation and temporary files
+docs/
+*.md
+LICENSE
+NOTICE
+*.log
+tmp/
+temp/
+.env*
+!.env.example
